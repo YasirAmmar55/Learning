@@ -1,6 +1,6 @@
 const accountId = 1234567890 // accountId is a constant and cannot be changed
 let accountEmail = "yasir@gmail.com" // accountEmail can be changed but accountId cannot be changed
-var accountPassword = "12345678" // Not Used due to scope issue
+var accountPassword = "12345678" // Not Used due to block scope and functional scope issue
 accountCity = "Karachi" // it can be used without declaration but it is not recommended
 
 
@@ -8,4 +8,4 @@ accountCity = "Karachi" // it can be used without declaration but it is not reco
  console.log(accountId); // Output: TypeError: Assignment to constant variable.
  
 console.log(accountEmail); // Output:
-console.table([ accountId, accountEmail, accountCity ])
+console.table([ accountId, accountEmail, accountCity ]) // Output: [ 1234567890, '
