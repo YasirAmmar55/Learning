@@ -44,3 +44,11 @@ console.log(typeof valueInNumber2);
 console.log(valueInNumber2);
 
 console.table({age, name, isboy, money, tension, id, valueInNumber, valueInString, valueInObject, valueInNumber2})
+
+
+// "33" => 33
+// "33abc" => NaN
+// true => 1
+// false => 0
+// null => 0
+// undefined => NaN
