@@ -51,4 +51,5 @@ console.table({age, name, isboy, money, tension, id, valueInNumber, valueInStrin
 // true => 1
 // false => 0
 // null => 0
-// undefined => NaN
+// undefined => Na
+NaN
