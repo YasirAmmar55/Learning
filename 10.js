@@ -15,8 +15,31 @@ console.log(new1.toPrecision(4)); // precisized the number ->like we give 4 its 
 
 
 const new2 = 123453434;
-console.log(new2.toLocaleString('en-IN')); // sperate by , to easily under how much number is 
+console.log(new2.toLocaleString()); // sperate by  equal number  , to easily under how much number is 
+console.log(new2.toLocaleString('en-IN'))  // accourding to laern like -> 1 lack 25 hundred etc 1,25,234
 
 
+/*---------------------Other Methods--------------------*/
 
+/*---- Basic Methods-------*/
+// Basic number methods can be used on any number:
+
+// toString()
+// toExponential()
+// toFixed()
+// toPrecision()
+// valueOf()
+
+/*---- Static Methods------*/
+// Static methods can only be used on Number:
+
+// Number.isFinite()
+// Number.isInteger()
+// Number.isNan()
+// Number.isSafeInteger()
+// Number.parseInt()
+// Number.parseFloat()
+
+
+// more form mdn or brwser console
 
