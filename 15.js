@@ -23,8 +23,8 @@ console.log(myInfo["mySym"]);
 
 // Changing values
 
-myInfo.location = "Lahore" 
-console.log(myInfo);
+// myInfo.location = "Lahore" 
+// console.log(myInfo);
 
 console.table(myInfo)
 // You can freez anything so anyone can't change it 
@@ -50,3 +50,4 @@ console.log(myInfo.greeting1);
 
 console.log(myInfo.greeting()); // 👉 This CALLS / RUNS the functio 👉 It returns whatever is inside the function
 console.log(myInfo.greeting1()); 
+//function1
