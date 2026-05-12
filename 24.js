@@ -62,3 +62,29 @@ for(i =0 ; i <=10 ; i++){
     console.log(i)
 }   
 
+
+
+/*--------------While loop------------------*/
+
+let i = 0       
+while(i <= 10){
+    console.log(i)
+    i++
+}   
+ let i = [1,2,3,4,5,6,7,8,9,10]
+    let j = 0
+while(j < i.length){
+    if(i[j]%2==0){
+        console.log(i[j])
+    }
+    j++
+}   
+/*--------------Do while loop------------------*/
+
+let i = 0       
+
+do{
+    console.log(i)
+    i++
+} while(i <= 10)
+
